@@ -1,0 +1,4 @@
+2020-09-30 22:47:08.7163 Trace Opening D:\Documents\Visual Studio 2019\CodeMaze projects\Logs\2020-09-30_logfile.txt with allowFileSharedWriting=False
+2020-09-30 22:47:08.7163 Trace Opening D:\Documents\Visual Studio 2019\CodeMaze projects\Logs\2020-09-30_logfile.txt with allowFileSharedWriting=False
+2020-09-30 22:47:08.7163 Trace Opening D:\Documents\Visual Studio 2019\CodeMaze projects\Logs\2020-09-30_logfile.txt with allowFileSharedWriting=False
+2020-09-30 22:47:08.7163 Trace Opening D:\Documents\Visual Studio 2019\CodeMaze projects\Logs\2020-09-30_logfile.txt with allowFileSharedWriting=False

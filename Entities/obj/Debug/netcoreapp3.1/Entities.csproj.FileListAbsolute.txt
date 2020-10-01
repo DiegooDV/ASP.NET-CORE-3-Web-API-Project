@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
