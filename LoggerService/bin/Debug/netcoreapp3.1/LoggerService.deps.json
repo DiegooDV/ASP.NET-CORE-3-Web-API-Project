@@ -9,17 +9,17 @@
       "LoggerService/1.0.0": {
         "dependencies": {
           "Contracts": "1.0.0",
-          "NLog": "4.7.4"
+          "NLog": "4.7.5"
         },
         "runtime": {
           "LoggerService.dll": {}
         }
       },
-      "NLog/4.7.4": {
+      "NLog/4.7.5": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.4.12037"
+            "fileVersion": "4.7.5.12092"
           }
         }
       },
@@ -36,12 +36,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "NLog/4.7.4": {
+    "NLog/4.7.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gSGX/ur0P3jp17H37HW7ycXR6L1578tQbilf4HLX1t2viCDFgtwEsfHMPf0/jcuf7/qqGgoU/vKgyQ9hzxuOEQ==",
-      "path": "nlog/4.7.4",
-      "hashPath": "nlog.4.7.4.nupkg.sha512"
+      "sha512": "sha512-1Udzim+UwoAGk0vW6T2rEBXJq1COvqTuE+4NFj2zHytuX1WOu+1Yes1qABG1IJOA5V3OMilIufUU1Ha9T0rrzQ==",
+      "path": "nlog/4.7.5",
+      "hashPath": "nlog.4.7.5.nupkg.sha512"
     },
     "Contracts/1.0.0": {
       "type": "project",

@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\bin\Debug\netcoreapp3.1\Contracts.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\bin\Debug\netcoreapp3.1\Entities.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\bin\Debug\netcoreapp3.1\Contracts.pdb
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+D:\Documents\Visual Studio 2019\CodeMaze projects\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
