@@ -31,9 +31,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj"
-              },
               "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\LoggerService\\LoggerService.csproj": {
                 "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\LoggerService\\LoggerService.csproj"
               },
@@ -52,11 +49,19 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -107,7 +112,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -244,6 +253,9 @@
             "projectReferences": {
               "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Contracts\\Contracts.csproj": {
                 "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Contracts\\Contracts.csproj"
+              },
+              "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj"
               }
             }
           }

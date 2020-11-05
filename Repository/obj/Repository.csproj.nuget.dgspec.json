@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Documents\\Visual Studio 2019\\CodeMaze projects\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
