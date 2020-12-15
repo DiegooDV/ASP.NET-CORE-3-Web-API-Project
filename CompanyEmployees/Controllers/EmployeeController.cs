@@ -10,6 +10,8 @@ using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Entities.RequestFeatures;
+using Newtonsoft.Json;
 
 namespace CompanyEmployees.Controllers
 {
@@ -28,7 +30,7 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetEmployeesByCompany(Guid companyId)
+        public async Task<IActionResult> GetEmployeesByCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
             var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
             if (company == null)
@@ -36,14 +38,17 @@ namespace CompanyEmployees.Controllers
                 _logger.LogInfo($"Company with id: {companyId} does not exist in the database.");
                 return NotFound();
             }
-            var employees = await _repository.Employee.GetEmployeesAsync(companyId, trackChanges: false);
-            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employees);
+            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges: false);
+            
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(employeesFromDb.MetaData));
+
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
             return Ok(employeesDto);
 
         }
 
         [HttpGet("{id}", Name = "GetEmployeeByCompany")]
-        public async Task<IActionResult> GetEmployeeByCompanyAsync(Guid companyId, Guid id)
+        public async Task<IActionResult> GetEmployeeByCompany(Guid companyId, Guid id)
         {
             var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges: false);
             if (company == null)

@@ -26,8 +26,7 @@ namespace CompanyEmployees.ActionFilters
             var company = await _repository.Company.GetCompanyAsync(companyId, false);
             if (company == null)
             {
-                _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");
-               
+                _logger.LogInfo($"Company with id: {companyId} doesn't exist in the database.");     
                 context.Result = new NotFoundResult();
                 return;
             }
