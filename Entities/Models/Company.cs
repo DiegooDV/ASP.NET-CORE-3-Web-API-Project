@@ -8,6 +8,7 @@ namespace Entities.Models
 {
     public class Company
     {
+        [Key]
         [Column("CompanyId")]
         public Guid Id { get; set; }
 

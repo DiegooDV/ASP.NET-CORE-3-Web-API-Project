@@ -1,0 +1,4 @@
+2020-12-24 14:41:00.9046 INFO Employee with id: 87dba8c0-d178-41e7-938c-ed49778fb52a does not exist in the company with id: c9d4c053-49b6-410c-bc78-2d54a9991870 or does not exist in the database.
+2020-12-24 14:41:04.4443 INFO Employee with id: 87dba8c0-d178-41e7-938c-ed49778fb52a does not exist in the company with id: c9d4c053-49b6-410c-bc78-2d54a9991870 or does not exist in the database.
+2020-12-24 14:41:21.3305 ERROR Some ids are not valid in a collection
+2020-12-24 14:41:23.9204 ERROR Some ids are not valid in a collection
