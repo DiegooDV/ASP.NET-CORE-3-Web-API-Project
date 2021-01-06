@@ -20,7 +20,6 @@ namespace CompanyEmployees.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private readonly IDataShaper<EmployeeDto> _dataShaper;
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
@@ -36,6 +35,7 @@ namespace CompanyEmployees.Controllers
         }
 
         [HttpGet]
+        [HttpHead]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
         public async Task<IActionResult> GetEmployeesByCompany(Guid companyId, [FromQuery] EmployeeParameters employeeParameters)
         {
@@ -156,8 +156,6 @@ namespace CompanyEmployees.Controllers
             await _repository.SaveAsync();
             return NoContent();
         }
-
-
     }
 
 }

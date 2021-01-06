@@ -53,21 +53,18 @@ namespace CompanyEmployees.Extensions
         {
             services.Configure<MvcOptions>(config =>
             {
-                var newtonsoftJsonOutputFormatter = config.OutputFormatters
-                .OfType<NewtonsoftJsonOutputFormatter>()?.FirstOrDefault();
+                var newtonsoftJsonOutputFormatter = config.OutputFormatters.OfType<NewtonsoftJsonOutputFormatter>()?.FirstOrDefault();
                 if (newtonsoftJsonOutputFormatter != null)
                 {
-                    newtonsoftJsonOutputFormatter
-                    .SupportedMediaTypes
-                    .Add("application/vnd.diegoodv.hateoas+json");
+                    newtonsoftJsonOutputFormatter.SupportedMediaTypes.Add("application/vnd.diegoodv.hateoas+json");
+                    newtonsoftJsonOutputFormatter.SupportedMediaTypes.Add("application/vnd.diegoodv.apiroot+json");
                 }
-                var xmlOutputFormatter = config.OutputFormatters
-               .OfType<XmlDataContractSerializerOutputFormatter>()?.FirstOrDefault();
+                var xmlOutputFormatter = config.OutputFormatters.OfType<XmlDataContractSerializerOutputFormatter>()?.FirstOrDefault();
                 if (xmlOutputFormatter != null)
                 {
-                    xmlOutputFormatter
-                    .SupportedMediaTypes
-                    .Add("application/vnd.diegoodv.hateoas+xml");
+                    xmlOutputFormatter.SupportedMediaTypes.Add("application/vnd.diegoodv.hateoas+xml");
+                    xmlOutputFormatter.SupportedMediaTypes.Add("application/vnd.diegoodv.apiroot+xml");
+
                 }
             });
         }

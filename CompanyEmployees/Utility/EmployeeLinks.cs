@@ -86,7 +86,7 @@ namespace CompanyEmployees.Utility
         private LinkCollectionWrapper<Entity> CreateLinksForEmployees(HttpContext httpContext,
             LinkCollectionWrapper<Entity> employeesWrapper)
         {
-            employeesWrapper.Links.Add(new Link(_linkGenerator.GetUriByAction(httpContext,"GetEmployeesForCompany",
+            employeesWrapper.Links.Add(new Link(_linkGenerator.GetUriByAction(httpContext,"GetEmployeesByCompany",
                 values: new { }),"self", "GET"));
             return employeesWrapper;
         }
