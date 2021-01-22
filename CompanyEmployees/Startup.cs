@@ -49,6 +49,9 @@ namespace CompanyEmployees
             services.AddMemoryCache();
             services.ConfigureRateLimitingOptions();
             services.AddHttpContextAccessor();
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            services.ConfigureJWT(Configuration);
             services.AddControllers(config =>
             {
                 config.RespectBrowserAcceptHeader = true;
@@ -69,6 +72,7 @@ namespace CompanyEmployees
             services.AddScoped<ValidateMediaTypeAttribute>();
             services.AddScoped<EmployeeLinks>();
             services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+            services.AddScoped<IAuthenticationManager, AuthenticationManager>();
 
 
 
@@ -94,7 +98,7 @@ namespace CompanyEmployees
             app.UseHttpCacheHeaders();
             app.UseIpRateLimiting();
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

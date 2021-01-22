@@ -1,2 +1,0 @@
-2020-12-21 21:29:23.1333 INFO Company with id: 00000000-0000-0000-0000-000000000000 does not exist in the database.
-2020-12-21 21:29:51.3181 INFO Company with id: 00000000-0000-0000-0000-000000000000 does not exist in the database.

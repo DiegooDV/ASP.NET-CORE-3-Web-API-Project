@@ -148,5 +148,11 @@ D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\net
 D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
 D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Marvin.Cache.Headers.dll
 D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\AspNetCoreRateLimit.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\obj\Debug\netcoreapp3.1\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cs
 D:\Documents\Visual Studio 2019\CodeMaze projects\CompanyEmployees\obj\Debug\netcoreapp3.1\CompanyEmployees.MvcApplicationPartsAssemblyInfo.cache

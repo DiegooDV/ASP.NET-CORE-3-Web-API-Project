@@ -1,3 +1,0 @@
-2020-11-20 14:45:40.6100 INFO Company with id: 3d490a70-94ce-4d15-9494-5248280c2c53 doesn't exist in the database.
-2020-11-20 14:45:48.8923 INFO Company with id: 3d490a70-94ce-4d15-9494-5248280c2c53 doesn't exist in the database.
-2020-11-20 14:45:56.9668 INFO Employee with id: 80abbca8-664d-4b20-b5de-024705497d48 doesn't exist in the database.

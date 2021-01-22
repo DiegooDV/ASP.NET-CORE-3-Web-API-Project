@@ -7,4 +7,3 @@ D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3
 D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
 D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
-D:\Documents\Visual Studio 2019\CodeMaze projects\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
