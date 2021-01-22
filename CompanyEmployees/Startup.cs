@@ -52,6 +52,7 @@ namespace CompanyEmployees
             services.AddAuthentication();
             services.ConfigureIdentity();
             services.ConfigureJWT(Configuration);
+            services.ConfigureSwagger();
             services.AddControllers(config =>
             {
                 config.RespectBrowserAcceptHeader = true;
@@ -100,6 +101,12 @@ namespace CompanyEmployees
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSwagger();
+            app.UseSwaggerUI(s =>
+            {
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "DiegooDV API v1");
+                s.SwaggerEndpoint("/swagger/v2/swagger.json", "DiegooDV API v2");
+            });
 
             app.UseEndpoints(endpoints =>
             {
