@@ -1,6 +1,7 @@
 ﻿using Entities.DataTransferObjects;
 using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,5 +11,10 @@ namespace Contracts
     {
         Task<bool> ValidateUser(UserForAuthenticationDto userForAuth);
         Task<string> CreateToken();
+        string GenerateRefreshToken();
+        ClaimsPrincipal GetPrincipalFromExpiredToken(string token);
+        string GenerateAccessToken(IEnumerable<Claim> claims);
+
+
     }
 }
